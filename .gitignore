@@ -1,0 +1,30 @@
+# 데이터 파일
+*.csv
+*.npy
+*.xlsx
+
+# macOS 시스템 파일
+.DS_Store
+**/.DS_Store
+
+# AutoGluon 모델 및 결과물
+autogluon_ivf_model/
+autogluon_model/
+autogluon_model_final/
+
+# CatBoost 훈련 정보
+catboost_info/
+
+# 출력 폴더 (필요하다면)
+output/
+
+# Python Virtual Environment
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
